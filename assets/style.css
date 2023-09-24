@@ -103,7 +103,8 @@ nav a {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	/* background-color: #BEB45A; */
+	background-color: #685f14;
 	border-radius:0 ;
 }
 
@@ -253,6 +254,12 @@ footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #BEB45A;
+}
+footer li {
+	list-style: none;
+}
+footer ul li:first-child {
+	font-weight: bold;
 }
 
 @media all and (max-width: 1180px) {
